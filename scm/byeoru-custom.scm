@@ -64,6 +64,10 @@
 	 #t
 	 (N_ "Hangul 390 generous")
 	 (N_ "Hangul 390 that allows composition of precomposed jamos"))
+   (list 'byeoru-layout-3-2015m
+	 #t
+	 (N_ "Hangul 3-beol 2015m")
+	 (N_ "Hangul 3-beol 2015m that allows composition of precomposed jamos"))
    (list 'byeoru-layout-no-shift
 	 #t
 	 (N_ "Hangul 3-beol no-shift")
