@@ -133,6 +133,7 @@
     ((jungseong-u      . jungseong-e     ) . jungseong-we         )
     ((jungseong-u      . jungseong-i     ) . jungseong-wi         )
     ((jungseong-eu     . jungseong-i     ) . jungseong-ui         )
+    ((jungseong-ae     . jungseong-eo    ) . jungseong-yae        )
     ((jongseong-giyeog . jongseong-sios  ) . jongseong-giyeogsios )
     ((jongseong-nieun  . jongseong-jieuj ) . jongseong-nieunjieuj )
     ((jongseong-nieun  . jongseong-hieuh ) . jongseong-nieunhieuh )
@@ -152,7 +153,8 @@
     ((choseong-sios    . choseong-sios   ) . choseong-ssangsios   )
     ((choseong-jieuj   . choseong-jieuj  ) . choseong-ssangjieuj  )
     ((jongseong-giyeog . jongseong-giyeog) . jongseong-ssanggiyeog)
-    ((jongseong-sios   . jongseong-sios  ) . jongseong-ssangsios  )))
+    ((jongseong-sios   . jongseong-sios  ) . jongseong-ssangsios  )
+    ((jungseong-eo     . jungseong-eo    ) . jungseong-yae        )))
 
 (define byeoru-transition-alist
   (let ((sta '(start     . 0))
@@ -787,8 +789,8 @@
  ("q" (jongseong-sios   . (3 4 5)))
  ("w" (jongseong-rieul  . 3))
  ("e" (jungseong-yeo    . 1)     (jongseong-jieuj   . (1 4)))
- ("r" (jungseong-ae     . (1 4)) (jongseong-chieuch . (1 4)))
- ("t" (jungseong-eo     . (1 4)))
+ ("r" (jungseong-ae     . (3 4)) (jongseong-chieuch . (1 4)))
+ ("t" (jungseong-eo     . (3 4 5)))
  ("y" (choseong-rieul   . 1))
  ("u" (choseong-digeud  . (3 5)))
  ("i" (choseong-mieum   . 1))
